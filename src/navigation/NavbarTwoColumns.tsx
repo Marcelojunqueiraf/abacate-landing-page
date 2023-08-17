@@ -9,7 +9,12 @@ type INavbarProps = {
 const NavbarTwoColumns = (props: INavbarProps) => (
   <div className="flex flex-wrap items-center justify-between">
     <div>
-      <Image src="/assets/images/logo.svg" height={200} width={200}></Image>
+      <Image
+        alt="logo"
+        src="/assets/images/logo.svg"
+        height={200}
+        width={200}
+      ></Image>
     </div>
 
     <nav>

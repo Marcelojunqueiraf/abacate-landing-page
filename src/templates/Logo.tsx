@@ -1,5 +1,3 @@
-import { AppConfig } from '../utils/AppConfig';
-
 type ILogoProps = {
   xl?: boolean;
 };
@@ -29,7 +27,7 @@ const Logo = (props: ILogoProps) => {
         <rect x="15" y="4" width="6" height="16" rx="1" />
         <path d="M4 20h14" />
       </svg>
-    Abacate
+      Abacate
     </span>
   );
 };
